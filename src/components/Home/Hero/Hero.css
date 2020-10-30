@@ -1,0 +1,34 @@
+.hero-root{
+    min-height: 550px;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.hero-root h1{
+    font-size: 4.3rem;
+    margin-bottom: 20px;
+}
+
+.hero-root h4{
+    font-size: 2rem;
+}
+
+.particle{
+    position: absolute;
+    width: 100%;
+}
+.me-root{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.me{
+    position: relative;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.me-img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+.skills-root ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: 700;
+}
+
+.skills-root li{
+    background-color: lightgray;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.skills-root i{
+    color: #C82333;
+    font-size: large;
+}
+
+.skills-root h2{
+    width: auto;
+    margin: 60px 0;
+}
+
+.empty{
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+
+.fill{
+    height: 20px;
+    background-color: #C82333;
+    border-radius: 50px;
+}

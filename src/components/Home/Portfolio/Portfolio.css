@@ -1,0 +1,10 @@
+.portfolio{
+    
+}
+
+.portfolio:hover{
+    background-color: tomato;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}

@@ -1,0 +1,22 @@
+.slide-img-root{
+    height: 350px;
+    overflow: hidden;
+    padding: 50px;
+}
+.technology{
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightblue;
+    margin: 10px;
+}
+.feature-root{
+    margin-top: 80px;
+}
+.feature-root ul{
+    list-style: none;
+    padding: 0;
+}
+
+.feature-root li{
+    padding: 0;
+}
