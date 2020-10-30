@@ -8,10 +8,16 @@ import img1 from '../../../images/ca1.png'
 import img2 from '../../../images/ca2.png'
 import img3 from '../../../images/ca3.png'
 import img4 from '../../../images/ca4.png'
+import vn1 from '../../../images/voluneer-network.png'
+import vn2 from '../../../images/vn2.png'
+import vn3 from '../../../images/vn3.png'
+import vn4 from '../../../images/vn4.png'
+import vn5 from '../../../images/vn5.png'
 
 
 const Project = () => {
     const caImg = [img1, img2, img3, img4];
+    const vnImg = [vn1, vn2, vn3, vn4, vn5];
     const caTechnology = ['React JS', 'Node JS', 'MongoDB', 'Express', 'Firebase']
     const caLink = ['','','']
     var settings = {
@@ -60,7 +66,7 @@ const Project = () => {
               caImg.map(img => 
                 <div>
                     <div className="slide-img-root">
-                        <img className="img-fluid m-3 p-3 shadow" src={img} alt=""/>
+                        <img className="img-fluid m-0 p-0 shadow" src={img} alt=""/>
                     </div>
                 </div>
                 )
@@ -96,13 +102,13 @@ const Project = () => {
                     </ul>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-between text-right">
-                    <div>
+                    <div className="my-3">
                         <a href="https://creative-agency-c7ca7.web.app/" target="_blank" className="btn btn-danger">View Live Site</a>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <a href="https://github.com/NHNaims-code/creative-agency-client" target="_blank" className="btn btn-danger">Source Code Client</a>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <a href="https://github.com/NHNaims-code/creative-agency-server" className="btn btn-danger">Source Code Server</a>
                     </div>
                 </div>
@@ -113,17 +119,19 @@ const Project = () => {
 
           <div className="my-5 bg-danger py-5 text-white">
             <h1>Volunteer Network</h1>
-            <Slider {...settings}>
-          {
-              caImg.map(img => 
-                <div>
-                    <div className="slide-img-root">
-                        <img className="img-fluid m-3 p-3 shadow" src={img} alt=""/>
+            <div className="w-100">
+            <Slider {...settings} className="w-100">
+            {
+                vnImg.map(img => 
+                    <div>
+                        <div className="slide-img-root">
+                            <img className="img-fluid m-0 p-0 shadow" src={img} alt=""/>
+                        </div>
                     </div>
-                </div>
-                )
-          }
-        </Slider>
+                    )
+            }
+            </Slider>
+            </div>
         
           <h3 className="mt-5">Technology</h3>
             <div className="row d-flex mt-3 container mx-auto">
@@ -154,13 +162,13 @@ const Project = () => {
                     </ul>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-between text-right">
-                    <div>
+                    <div className="my-3">
                         <a href="https://vollunteer-network.web.app/" target="_blank" className="btn btn-secondary">View Live Site</a>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <a href="https://github.com/NHNaims-code/volunteer-network-client" target="_blank" className="btn btn-secondary">Source Code Client</a>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <button className="btn btn-secondary">Source Code Server</button>
                     </div>
                 </div>
@@ -171,10 +179,10 @@ const Project = () => {
             <h1>Volunteer Network</h1>
             <Slider {...settings}>
           {
-              caImg.map(img => 
+              vnImg.map(img => 
                 <div>
                     <div className="slide-img-root">
-                        <img className="img-fluid m-3 p-3 shadow" src={img} alt=""/>
+                        <img className="img-fluid m-0 p-0 shadow" src={img} alt=""/>
                     </div>
                 </div>
                 )
@@ -210,13 +218,13 @@ const Project = () => {
                     </ul>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-between text-right">
-                    <div>
+                    <div className="my-3">
                         <button className="btn btn-danger">View Live Site</button>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <button className="btn btn-danger">Source Code Client</button>
                     </div>
-                    <div>
+                    <div className="my-3">
                         <button className="btn btn-danger">Source Code Server</button>
                     </div>
                 </div>

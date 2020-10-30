@@ -12,6 +12,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/md-nimur-hasan/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
             </div>
+            
             <p className="pt-5 mt-5"><small>&copy; 2020. All right reserved.</small></p>
         </div>
     );

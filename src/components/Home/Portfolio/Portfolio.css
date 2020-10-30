@@ -8,3 +8,17 @@
     cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
+
+@media (max-width: 600px) {
+    .portfolio{
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 50px !important;
+    }
+    .portfolio img{
+        box-shadow: 5px 5px 5px lightgray;
+        padding-bottom: 5px;
+        margin-bottom: 5px !important;
+    }
+ 
+} 

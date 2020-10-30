@@ -28,7 +28,7 @@ const Hero = () => {
                 <h1>I'm Nimur Hasan</h1>
                 <p><small>I’m Md Nimur Hasan, a MERN Stack Developer. I know MongoDB, express, react, node js, and
     continue deep learning on these. I love to learn more about new web technology</small></p>
-                <a className="btn btn-danger mt-3" href="https://filebin.net/ydzhwikhyafl9aed/Resume_of_Md_Nimur_Hasan.pdf?t=eu0p71n5">Download Resume</a>
+                <a className="btn btn-danger mt-3" href="https://srv-store2.gofile.io/download/iGpl7a/Resume%20of%20Md%20Nimur%20Hasan.pdf">Download Resume</a>
                 </div>
                 <div className="col-md-6 me-root ">
                     <div className="me tex-right">

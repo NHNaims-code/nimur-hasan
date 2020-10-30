@@ -39,7 +39,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li class="nav-item">
-                    <a className="btn btn-danger" href="https://filebin.net/ydzhwikhyafl9aed/Resume_of_Md_Nimur_Hasan.pdf?t=eu0p71n5">Download Resume</a>
+                    <a className="btn btn-danger" href="https://srv-store2.gofile.io/download/iGpl7a/Resume%20of%20Md%20Nimur%20Hasan.pdf">Download Resume</a>
                 </li>
                 </ul>
             </div>
